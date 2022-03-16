@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar {
+  width: 100%;
+  height: auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem 1.6rem;
+  border-bottom: 4px solid rgba(112, 110, 110, 0.541);
+}
+
+ul {
+  list-style: none;
+}
+
+li.act {
+  width: fit-content;
+  border: 1px solid rgb(97, 94, 94);
+  border-radius: 50px;
+  padding: 0.5rem 0.8rem;
+  margin: 1rem;
+}
+
+li.true {
+  text-decoration: line-through;
+  font-weight: normal;
+}
