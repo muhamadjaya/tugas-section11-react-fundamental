@@ -9,7 +9,7 @@ function Todo() {
   ];
 
   return (
-    <div>
+    <>
       <div className={Style.Navbar}>To Do App</div>
       <ul>
         {activities.map((act) => (
@@ -21,7 +21,7 @@ function Todo() {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 }
 
